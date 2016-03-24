@@ -1,0 +1,143 @@
+html, body {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 970px;
+}
+
+.header {
+	color: #fff;
+}
+
+.header ul {
+	list-style: none;
+}
+
+.header li {
+	display: inline;
+	margin-right: 30px;
+}
+
+.jumbotron {
+	background-color: #000;
+	height: 600px;
+	margin-bottom: 0;
+}
+
+.jumbotron .btn {
+	color: #0393ff;
+	border: 1px solid #0393ff;
+	border-radius: 2px;
+	background: transparent;
+	padding: 8px 20px;
+	text-align: center;
+}
+
+.jumbotron .btn:hover {
+	color: #fff;
+	background-color: #0393ff;
+}
+
+.jumbotron h1 {
+	font-size: 60px;
+	margin-top: 80px;
+	margin-bottom: 40px;
+	font-weight: 300;
+	text-align: center;
+	color: #fff;
+}
+
+.main, .supporting h2, .supporting p, .feature {
+        text-align: center;
+        color:#fff;
+}
+
+.form-inline {
+	margin-top: 80px;
+}
+
+#search {
+	background: transparent;
+	border: 0;
+	border-radius: 0;
+	border-bottom: 1px solid #fff;
+	color: #fff;
+	font-size: 18px;
+	margin: 0 20px;
+	width: 400px;
+}
+
+#search:hover {
+	border-bottom: 1px solid #0393ff;
+}
+
+#search:focus {
+	border-bottom: 1px solid #0393ff;
+	box-shadow: 0px 0px 0px;
+	outline: 0px;
+}
+
+.supporting {
+ 	background: url(http://s3.amazonaws.com/codecademy-content/projects/bolt-network/diagmonds_@2X.png);
+  	height: auto;
+  	padding-top: 80px;
+  	padding-bottom: 20px;
+}
+
+.thumbnail {
+	background: transparent;
+	border: 0;
+}
+
+.supporting h2 p {
+	text-align: center;
+}
+
+.supporting h2 {
+	color: #1173FF;
+}
+
+.supporting p {
+	margin-bottom: 30px;
+ }
+
+.feature {
+ 	background: url(https://s3.amazonaws.com/codecademy-content/projects/bolt-network/feature.jpg) no-repeat center center;
+    background-size: cover;
+    height: 380px;
+    padding: 100 0 0 0;
+    text-align: center;
+ }
+
+ .feature h2 {
+ 	margin-top: 140px;
+ 	color: #1173FF;
+ 	font-size: 32px;
+}
+
+.feature p {
+ 	font-size: 18px;
+ }
+
+
+ .footer {
+ 	background-color: #000;
+ 	padding-top: 50px;
+ 	padding-bottom: 40px;
+ }
+
+
+ .footer ul {
+ 	color: #fff;
+ 	list-style: none;
+ 	padding-left: 0;
+ }
+
+ .footer h3 {
+ 	font-size: 18px;
+ 	color: #1173FF;
+ }
